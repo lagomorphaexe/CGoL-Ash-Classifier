@@ -1,0 +1,341 @@
+Blinker; 3,1; 3o!
+
+Block; 2,2; 2o$2o!
+
+Beehive; 4,3; b2o$o2bo$b2o!
+
+Loaf; 4,4; bo$obo$o2bo$b2o!
+
+Boat; 3,3; 2o$obo$bo!
+
+Tub; 3,3; bo$obo$bo!
+
+Pool; 4,4; b2o$o2bo$o2bo$b2o!
+
+Ship; 3,3; b2o$obo$2o!
+
+Long Boat; 4,4; 2b2o$bobo$obo$bo!
+
+Frog; 2
+4,4; 2bo$o2bo$o2bo$bo!
+4,2; 3o$b3o!
+
+Ship-Tie; 6,6; 2o$obo$b2o$3b2o$3bobo$4b2o!
+
+Beacon; 2
+4,4; 2b2o$3bo$o$2o!
+4,4; 2b2o$2b2o$2o$2o!
+
+Barge; 4,4; bo$obo$bobo$2bo!
+
+Meta Bi-loaf; 7,7; 4b2o$3bo2bo$3bobo$b2obo$o2bo$obo$bo!
+
+Mango; 4,5; bo$obo$o2bo$bobo$2bo!
+
+Glider; 2
+3,3; 3o$o$bo!
+3,3; obo$2o$bo!
+
+Eater; 4,4; 2o$o$b3o$3bo!
+
+Long Barge; 5,5; bo$obo$bobo$2bobo$3bo!
+
+Aircraft Carrier; 3,4; b2o$2bo$o$2o!
+
+Paperclip; 5,6; 2b2o$bo2bo$bob2o$2obo$o2bo$b2o!
+
+Pulsar; 3
+13,13; 2b3o3b3o$$o4bobo4bo$o4bobo4bo$o4bobo4bo$2b3o3b3o$$2b3o3b3o$o4bobo4bo$o4bobo4bo$o4bobo4bo$$2b3o3b3o!
+15,15; 4bo5bo$4bo5bo$4b2o3b2o$$3o2b2ob2o2b3o$2bobobobobobo$4b2o3b2o$$4b2o3b2o$2bobobobobobo$3o2b2ob2o2b3o$$4b2o3b2o$4bo5bo$4bo5bo!
+13,13; 2b2o5b2o$3b2o3b2o$o2bobobobo2bo$3ob2ob2ob3o$bobobobobobo$2b3o3b3o$$2b3o3b3o$bobobobobobo$3ob2ob2ob3o$o2bobobobo2bo$3b2o3b2o$2b2o5b2o!
+
+Shillelagh; 5,3; 2o$o2b2o$b2obo!
+
+Long Ship; 4,4; 2o$obo$bobo$2b2o!
+
+Integral Sign; 5,5; 2o$obo$2bo$2bobo$3b2o!
+
+Boat-Tie; 6,6; 4bo$3bobo$3b2o$b2o$obo$bo!
+
+Snake; 4,2; ob2o$2obo!
+
+Big S; 6,7; 3b2o$3bobo$5bo$b4o$o$obo$b2o!
+
+Bi-Pool; 7,7; 4b2o$3bo2bo$3bo2bo$b2ob2o$o2bo$o2bo$b2o!
+
+Para Boat With Tail; 5,5; 4bo$2b3o$bo$obo$2o!
+
+Hat; 5,4; 2bo$bobo$bobo$2ob2o!
+
+Ship-Tie-Boat; 6,6; bo$obo$b2o$3b2o$3bobo$4b2o!
+
+Long Long Boat; 5,5; 3b2o$2bobo$bobo$obo$bo!
+
+Tub With Tail; 5,5; 3bo$2bobo$3bo$3o$o!
+
+Canoe; 5,5; 2o$obo$3bo$4bo$3b2o!
+
+Table On Table; 4,5; o2bo$4o$$4o$o2bo!
+
+Long Long Ship; 5,5; 2o$obo$bobo$2bobo$3b2o!
+
+Cis R-Bee; 4,7; b2o$o2bo$b3o$$b3o$o2bo$b2o!
+
+Moose Antlers; 5,9; 3b2o$2bobo$2bo$b2o$o$b2o$2bo$2bobo$3b2o!
+
+Block on Table; 5,4; 2ob2o$2obo$3bo$3b2o!
+
+Block On Dock; 6,6; 4b2o$2obobo$2obo$3bo$3bobo$4b2o!
+
+Twinhat; 5,9; bo$b3o$4bo$b3o$o$b3o$4bo$b3o$bo!
+
+Beehive On Dock; 7,6; bo3b2o$obobobo$obobo$bo2bo$4bobo$5b2o!
+
+Fourteener; 5,7; b2o$bobo$3bo$3b2o$2obo$o2bo$b2o!
+
+Scorpion; 7,6; 3bo$b3o$o3b2o$obobobo$b2obobo$5bo!
+
+Sock; 5,4; b2o$o2bo$bobo$2ob2o!
+
+Beehive With Tail; 6,5; b2o$o2bo$b2obo$4bo$4b2o!
+
+LWSS; 2
+5,4; b2o$4o$2ob2o$2b2o!
+5,4; o2bo$4bo$o3bo$b4o!
+
+Loaf With Tail; 6,6; b2o$o2bo$bobo$2bo$3b3o$5bo!
+
+Meta Boat With Tail; 5,5; 2o$bo$bob2o$2bobo$3bo!
+
+Trans R-Bee; 7,5; bo$obob2o$obobobo$b2obobo$5bo!
+
+Block And D; 6,4; b2o$obo$obob2o$b2ob2o!
+
+Cis Boat And Dock; 6,7; 2o2b2o$o4bo$b4o$$b2o$bobo$2bo!
+
+(D) Trans Bookends; 5,7; b2o$bo2bo$2b3o$$3o$o2bo$2b2o!
+
+Long Snake; 5,3; 3b2o$obobo$2o!
+
+Cis Bookends; 4,7; 2b2o$o2bo$3o$$3o$o2bo$2b2o!
+
+Dock On Dock; 7,6; 2o3b2o$obobobo$2bobo$2bobo$obobobo$2o3b2o!
+
+Clock; 4,4; 2bo$obo$bobo$bo!
+
+(U) Block On Table-Dock; 5,6; 3b2o$3b2o$$b4o$o3bo$2o!
+
+Elevener; 6,6; 4b2o$3bobo$3bo$b3o$o$2o!
+
+Pentadecathlon; 15
+3,12; 3o$bo$bo$3o$$3o$3o$$3o$bo$bo$3o!
+3,14; bo$3o$$$3o$$obo$obo$$3o$$$3o$bo!
+3,14; 3o$3o$bo$bo$bo$obo$$$obo$bo$bo$bo$3o$3o!
+3,16; bo$obo$$$3o$3o$bo$$$bo$3o$3o$$$obo$bo!
+3,16; bo$bo$$bo$obo$$3o$$$3o$$obo$bo$$bo$bo!
+3,10; bo$bo$obo$bo$bo$bo$bo$obo$bo$bo!
+3,8; 3o$obo$3o$3o$3o$3o$obo$3o!
+5,10; 2bo$bobo$o3bo$o3bo$o3bo$o3bo$o3bo$o3bo$bobo$2bo!
+7,10; 3bo$2b3o$b2ob2o$3ob3o$3ob3o$3ob3o$3ob3o$b2ob2o$2b3o$3bo!
+9,10; 3b3o$2bo3bo$bo5bo$$o7bo$o7bo$$bo5bo$2bo3bo$3b3o!
+5,12; 2bo$b3o$5o$$$$$$$5o$b3o$2bo!
+5,12; b3o$o3bo$o3bo$b3o$$$$$b3o$o3bo$o3bo$b3o!
+5,14; 2bo$b3o$obobo$obobo$b3o$2bo$$$2bo$b3o$obobo$obobo$b3o$2bo!
+5,14; b3o$$o3bo$o3bo$$b3o$$$b3o$$o3bo$o3bo$$b3o!
+3,16; bo$bo$3o$$$3o$bo$bo$bo$bo$3o$$$3o$bo$bo!
+
+Trans Bookend And R-Bee; 7,5; bo$obob2o$obobo$b2obobo$5b2o!
+
+Dead Spark Coil; 7,5; 2o3b2o$obobobo$2bobo$obobobo$2o3b2o!
+
+Bent Canoe; 5,6; 3b2o$2bobo$bo$o$obo$b2o!
+
+Long Long Snake; 6,4; 2o$obo$3bobo$4b2o!
+
+Cis Aircraft Carrier -S- Snake; 7,3; 2o$o2b2obo$2b2ob2o!
+
+Block And Cover; 5,5; 2ob2o$2obo$3bo$3o$o!
+
+Trans R-Bee And R-Loaf; 8,5; bo$obob2o$obobobo$b2obo2bo$5b2o!
+
+Long Shillelagh; 3,6; b2o$obo$o$bo$2bo$b2o!
+
+Eater -S- Eater; 7,4; 2o3b2o$bo4bo$bob3o$2b2o!
+
+(D) Block On Table-Dock; 5,6; 3b2o$o3bo$4o$$2b2o$2b2o!
+
+Cis Snake And R-Bee; 6,5; 2o$o2b2o$bobobo$2obobo$4bo!
+
+Pro Barge With Tail; 6,6; bo$obo$bobo$2bobo$4bo$4b2o!
+
+Beehive -J- Loaf; 7,6; b2o$o2bo$bobo$2bob2o$3bo2bo$4b2o!
+
+(U) Shifted Trans R-Bee; 7,7; 4b2o$3bo2bo$3b3o$$b3o$o2bo$b2o!
+
+Pro Loaf -S- Loaf; 5,5; 2b2o$bo2bo$obobo$o2bo$b2o!
+
+Tub With Integral Tail; 6,6; 4b2o$3bobo$3bo$bobo$obo$bo!
+
+Snake -X- Tail; 5,4; 2bobo$bob2o$bo$2o!
+
+Medium Hat -SS- Beehive; 6,6; bo$b3o$4bo$b3obo$o2bobo$2o2bo!
+
+Boat With Shillelagh Tail; 4,6; 2o$obo$bobo$3bo$2bo$2b2o!
+
+Beehive On Table; 5,6; b2o$o2bo$b2o$$b4o$bo2bo!
+
+Quadpole; 7,7; 5b2o$6bo$3bobo$$bobo$o$2o!
+
+Tiara; 7,5; b2ob2o$obobobo$o5bo$b5o$3bo!
+
+Long S; 4,6; 2o$obo$2bo$bo$bobo$2b2o!
+
+Cis R-Bee and R-Loaf; 4,8; bo$obo$o2bo$b3o$$b3o$o2bo$b2o!
+
+Cis Bookend and R-Bee; 4,7; b2o$o2bo$3o$$3o$o2bo$2b2o!
+
+Boat-Tie-Long-Boat; 7,7; 5bo$4bobo$4b2o$2b2o$bobo$obo$bo!
+
+Tub with Snake Tail; 6,4; bo$obo$bo2b2o$2b2obo!
+
+Lily; 6,6; 4b2o$3bobo$3bo$b2obo$o2bo$2o!
+
+Loaf With Tail v2; 6,5; 2o$bo2bo$bobobo$2bo2bo$3b2o!
+
+Beehive -J- Beehive; 6,6; 3b2o$2bo2bo$bob2o$obo$obo$bo!
+
+Ship-Tie-Long-Boat; 7,7; 5bo$4bobo$3bobo$3b2o$b2o$obo$2o!
+
+Long Long Barge; 6,6; bo$obo$bobo$2bobo$3bobo$4bo!
+
+Dock And Table-Dock; 6,7; 2o2b2o$o4bo$b4o$$b4o$bo3bo$4b2o!
+
+Great On-Off; 2
+8,8; 4bo$4b3o$7bo$4b2obo$2obo2bo$bobo$bo2bo$2b2o!
+8,8; 4bo$4b3o$7bo$4b2obo$2obob2o$bob2o$bo2bo$2b2o!
+
+Medium Hat; 6,5; 2bo$bobo$bobo$2obobo$4b2o!
+
+Bent Sock; 5,5; b2obo$o2b2o$bo$2b3o$4bo!
+
+Bipole; 5,5; 2o$obo$$2bobo$3b2o!
+
+Tripod Integral; 6,5; b2o$bo$2b3o$obo2bo$2o2b2o!
+
+Halfclip -J- 2R-Mango; 8,5; 2b2ob2o$bobobobo$o2bo3bo$obob3o$b2obo!
+
+Trans R-Bee And R-Mango; 6,8; b2o$o2bo$b3o$$b3o$bo2bo$2bo2bo$3b2o!
+
+Spiral With Tail; 5,6; 2o$obo$2bo$bo$2b3o$4bo!
+
+Cis Boat and Table; 4,6; 2bo$bobo$2b2o$$4o$o2bo!
+
+Eater -J- Boat; 7,5; bo$obo2b2o$b2o3bo$3b3o$3bo!
+
+Meta Loaf With Integral Tail; 7,7; 5b2o$4bobo$4bo$b2obo$o2bo$obo$bo!
+
+Table -S- Halfclip; 6,5; o2b2o$4obo$5bo$2b3o$2bo!
+
+Cis R-Mango; 9,5; 2b2ob2o$bobobobo$o2bobo2bo$obo3bobo$bo5bo!
+
+Trans Arrowhead -SS- Sock; 7,5; bobo$ob4o$o5bo$b3obo$3b2o!
+
+Mango With Tail; 6,7; bo$obo$o2bo$bobo$2bo$3b3o$5bo!
+
+Spiral Sock; 5,6; 3b2o$bo2bo$ob2o$o$b3o$3bo!
+
+Tripod Coil; 6,5; 4b2o$3bobo$b3o$o3bo$2ob2o!
+
+Beehive -J- R'-Loaf; 7,6; b2o$o2bo$ob2o$bo2b2o$3bo2bo$4b2o!
+
+Pool On Dock; 6,8; b2o$o2bo$o2bo$b2o$$b4o$o4bo$2o2b2o!
+
+Trans Boat On Dock; 7,6; bo3b2o$obobobo$b2obo$4bo$4bobo$5b2o!
+
+Loaf With Eater Tail; 7,5; 3b2o$2bo2bo$bobobo$o2bob2o$b2o!
+
+Cis Table-Docks; 5,7; 2o$o3bo$b4o$$b4o$o3bo$2o!
+
+Tub With Long Long Shillelagh Tail; 8,4; 4b2o$3bo2bo$obo2bobo$2o4bo!
+
+Eater -S- Integral Sign; 8,5; 3b2o$b3obo$o4bo$2o3bobo$6b2o!
+
+Double D; 7,4; b2ob2o$obobobo$obobobo$b2ob2o!
+
+Snake -J.- Eater; 9,4; 2b2ob2obo$bobobob2o$bo2bo$2o!
+
+Long Canoe; 6,6; 4b2o$3bobo$2bo$bo$o$2o!
+
+Para Halfclip -S- Eater; 7,7; o$3o$3bo$2b2o$3bob2o$3bo2bo$4b2o!
+
+(U) Cis Ship On Table-Dock; 7,5; b2ob2o$obobo$2o2bo$4bobo$5b2o!
+
+Socking; 5,6; bobo$ob2o$o$b3o$4bo$3b2o!
+
+Trans Boat And Table-Spiral; 6,8; 3b2o$3bobo$o4bo$5o$$2bo$bobo$2b2o!
+
+Barge-Moose Antlers; 7,11; 2b2o$2bobo$4bo$4b2o$6bo$4b2o$4bo$2bobo$bobo$obo$bo!
+
+Cobra; 5,7; 2b2o$2bobo$4bo$4o$o$bo$2o!
+
+Pro Bi-Loaf; 6,6; b2o$o2bo$obobo$bobobo$2bo2bo$3b2o!
+
+Trans Block And Dock-Mango; 9,8; 4b2o$3bobo$3bo$2obo$2obob2o$4bo2bo$5bo2bo$6b2o!
+
+Hat -SS- Sock; 5,7; 2b2o$bo2bo$bobo$2ob2o$bobo$bobo$2bo!
+
+Eater -S- Aircraft Carrier -S- Bookend; 6,7; 2o$o2b2o$b3o$5bo$3b3o$2bo$2b2o!
+
+(U) Beehive On Table-Dock; 6,7; 2o$o3bo$b4o$$3b2o$2bo2bo$3b2o!
+
+Snake -J.- Halfcanoe; 7,4; 2o$o2b2obo$bobob2o$2bo!
+
+Para Long Boat With Integral Tail; 7,7; 5b2o$4bobo$3bobo$4bo$b3o$o$2o!
+
+Big Hat; 5,7; 3b2o$4bo$b3o$o$b3o$4bo$3b2o!
+
+Aircraft Carrier -J- Halfcanoe; 4,7; 2b2o$3bo$bo$b2o$3bo$obo$2o!
+
+Boat -J- Shillelagh; 6,8; 4bo$3bobo$3b2o$b2o$obo$o$bo$2o!
+
+Cis Para Integral Sign On Table; 8,5; 2ob2o$bobobo$bo3bo$2o3bobo$6b2o!
+
+(U) Block On Table-Dock -J- Boat; 8,9; bo$obo$b2o$3b2o$3bo3bo$4b4o$$6b2o$6b2o!
+
+Para Long Boat With Tail; 6,6; 4b2o$4bo$2bobo$bobo$obo$2o!
+
+Cis Bookend And R-Mango; 8,5; bo$obo3b2o$o2bobobo$bobobo$2b2ob2o!
+
+Meta Long Boat With Tail; 5,6; 2b2o$bobo$obo$bo$2b3o$4bo!
+
+Trans Joined Aircraft Carrier; 6,6; 2b2o$2bo2bo$2o2b2o$o$2bo$b2o!
+
+(U) Trans Boat On Aircraft Carrier -S- Bookend; 7,7; 4bo$3bobo$3b2o$$b4o$o2bo2bo$2o3b2o!
+
+Eater -S- Block And Cover; 7,7; 2b2ob2o$2b2obo$5bo$2b3o$2bo$obo$2o!
+
+(D) Shifted Bookend and R-Mango; 8,7; 5b2o$5bo$2b2obobo$bobo2b2o$o2bo$obo$bo!
+
+Beehive -T- Tub; 7,8; 5bo$4bobo$4bobo$5bo$2b3o$bo$obo$bo!
+
+Para Mango With Integral Tail; 7,8; 5b2o$6bo$3b3o$2bo$bobo$o2bo$obo$bo!
+
+MWSS; 2
+6,5; 5o$o4bo$o$bo3bo$3bo!
+6,4; 2b3o$b5o$2ob3o$b2o!
+
+Paperclip With Tail; 6,7; 4bo$2b3o$bo$ob3o$o4bo$b3obo$3b2o!
+
+Meta Barge With Tail; 5,6; 4bo$2b3o$bo$obo$bobo$2bo!
+
+Ship-Tie-Quadpole; 10,10; 2o$obo$b2o$3b2o$3bo$4bobo$$6bobo$9bo$8b2o!
+
+Block On Table -J- Ship; 7,5; 3bo2bo$3b4o$b2o$obo2b2o$2o3b2o!
+
+Trans Bookend and R-Loaf; 5,8; 3b2o$bo2bo$b3o$$b3o$o2bo$obo$bo!
+
+Long^3 Shillelagh; 8,5; b2o$o2bo$2o2bo$5bobo$6b2o!
+
+Eater -J- Ship; 5,7; b2o$bobo$3bo$3b2o$b2o$obo$2o!
+
+Cis Siamese Aircraft Carrier; 7,4; 5b2o$2b2o2bo$o2b2o$2o!

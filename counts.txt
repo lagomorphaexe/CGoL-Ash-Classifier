@@ -1,0 +1,125 @@
+Blinker; 11743827
+Block; 11535051
+Beehive; 6817446
+Loaf; 2122608
+Boat; 1948843
+Tub; 436311
+Pool; 410321
+Ship; 272752
+Long Boat; 128065
+Frog; 95456
+Ship-Tie; 48969
+Beacon; 29201
+Barge; 28948
+Meta Bi-loaf; 14230
+Mango; 11319
+Glider; 8086
+Eater; 6301
+Bi-loaf; 4310
+Long Barge; 4258
+Aircraft Carrier; 2109
+Paperclip; 1682
+Pulsar; 1406
+Shillelagh; 1126
+Long Ship; 1178
+Integral Sign; 843
+Boat-Tie; 743
+Snake; 748
+Big S; 714
+Bi-Pool; 576
+Para Boat With Tail; 311
+Hat; 309
+Ship-Tie-Boat; 237
+Long Long Boat; 215
+Tub With Tail; 212
+Canoe; 163
+Table On Table; 169
+Long Long Ship; 152
+Cis R-Bee; 75
+Moose Antlers; 72
+Block on Table; 66
+Block On Dock; 65
+Twinhat; 55
+Beehive On Dock; 43
+Fourteener; 37
+Scorpion; 29
+Sock; 30
+Beehive With Tail; 34
+LWSS; 25
+Loaf With Tail; 25
+Meta Boat With Tail; 25
+Trans R-Bee; 22
+Block And D; 22
+Cis Boat And Dock; 20
+(D) Trans Bookends; 20
+Long Snake; 22
+Cis Bookends; 18
+Dock On Dock; 18
+Clock; 15
+(U) Block On Table-Dock; 16
+Elevener; 19
+Pentadecathlon; 14
+Trans Bookend And R-Bee; 13
+Dead Spark Coil; 15
+Bent Canoe; 13
+Long Long Snake; 14
+Cis Aircraft Carrier -S- Snake; 11
+Block And Cover; 14
+Trans R-Bee And R-Loaf; 12
+Long Shillelagh; 13
+Eater -S- Eater; 12
+(D) Block On Table-Dock; 10
+Cis Snake And R-Bee; 8
+Pro Barge With Tail; 8
+Beehive -J- Loaf; 9
+(U) Shifted Trans R-Bee; 7
+Pro Loaf -S- Loaf; 7
+Tub With Integral Tail; 8
+Snake -X- Tail; 6
+Medium Hat -SS- Beehive; 6
+Boat With Shillelagh Tail; 7
+Beehive On Table; 4
+Quadpole; 4
+Tiara; 5
+Long S; 5
+Cis R-Bee and R-Loaf; 5
+Cis Bookend and R-Bee; 5
+Boat-Tie-Long-Boat; 3
+Tub with Snake Tail; 4
+Lily; 4
+Loaf With Tail v2; 3
+Beehive -J- Beehive; 3
+Ship-Tie-Long-Boat; 3
+Long Long Barge; 3
+Dock And Table-Dock; 2
+Great On-Off; 3
+Medium Hat; 2
+Bent Sock; 4
+Bipole; 2
+Tripod Integral; 2
+Halfclip -J- 2R-Mango; 2
+Trans R-Bee And R-Mango; 2
+Spiral With Tail; 4
+Cis Boat and Table; 2
+Eater -J- Boat; 2
+Meta Loaf With Integral Tail; 2
+Table -S- Halfclip; 2
+Cis R-Mango; 2
+Trans Arrowhead -SS- Sock; 1
+Mango With Tail; 2
+Spiral Sock; 2
+Tripod Coil; 1
+Beehive -J- R'-Loaf; 1
+Pool On Dock; 1
+Trans Boat On Dock; 1
+Loaf With Eater Tail; 1
+Cis Table-Docks; 2
+Tub With Long Long Shillelagh Tail; 1
+Eater -S- Integral Sign; 1
+Double D; 1
+Snake -J.- Eater; 1
+Long Canoe; 1
+(U) Beehive On Table-Dock; 1
+Para Long Boat With Tail; 1
+Trans Bookend and R-Loaf; 1
+Cis Siamese Aircraft Carrier; 1

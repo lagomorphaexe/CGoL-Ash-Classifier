@@ -1,0 +1,279 @@
+x = 7, y = 7, rule = B3/S23
+bo$obo$b2o$3b2o$3bobo$5bo$5b2o!
+
+x = 4, y = 6, rule = B3/S23
+o$3o$3bo$2bo$bo$b2o!
+
+x = 6, y = 7, rule = B3/S23
+bo$obo$obo$bo$2b3o$5bo$4b2o!
+
+x = 6, y = 6, rule = B3/S23
+2o$obo$bobo$2bobo$3bobo$4bo!
+
+x = 7, y = 6, rule = B3/S23
+5b2o$4bobo$4bo$b2obo$obob2o$2o!
+
+x = 6, y = 6, rule = B3/S23
+b2o$o2bo$2o2bo$5bo$3bobo$3b2o!
+
+x = 5, y = 7, rule = B3/S23
+2b2o$bo2bo$2b2o$$4o$o3bo$3b2o!
+
+x = 6, y = 6, rule = B3/S23
+2o$obo$2bo$2bobo$3bobo$4b2o!
+
+x = 7, y = 8, rule = B3/S23
+2b2o$2bo2bo$3b3o$$b5o$o5bo$2o2bobo$4b2o!
+
+x = 8, y = 4, rule = B3/S23
+6b2o$2b2obobo$o2b2o$2o!
+
+x = 7, y = 5, rule = B3/S23
+bo$obob2o$obobobo$bo2bobo$4b2o!
+
+x = 7, y = 8, rule = B3/S23
+5bo$4bobo$3bo2bo$2bob2o$3bo$bobo$obo$2o!
+
+x = 6, y = 5, rule = B3/S23
+2b2o$bo2bo$obobo$obob2o$bo!
+
+x = 7, y = 7, rule = B3/S23
+5b2o$4bobo$2o2bo$obobobo$2bo2b2o$obo$2o!
+
+x = 11, y = 7, rule = B3/S23
+b2o5b2o$o2bo3bo2bo$obo5b2o$bob3o$3bo2bo$3bobo$4bo!
+
+x = 6, y = 7, rule = B3/S23
+2o$obo$3bo$4bo$b3obo$o2bobo$2o2bo!
+
+x = 5, y = 7, rule = B3/S23
+2ob2o$o3bo$b3o$$b3o$o2bo$2o!
+
+x = 4, y = 7, rule = B3/S23
+2o$obo$2bo$2b2o$3bo$bo$b2o!
+
+x = 8, y = 6, rule = B3/S23
+2o$obo3b2o$bobobobo$3bobo$3bo2bo$4b2o!
+
+x = 7, y = 6, rule = B3/S23
+2o$obo$2bo$2bob2o$obobobo$2o3b2o!
+
+x = 5, y = 3, rule = B3/S23
+2bo$b3o$5o!
+
+x = 5, y = 8, rule = B3/S23
+bo$b3o$4bo$b4o$o$obo$bobo$2bo!
+
+x = 12, y = 7, rule = B3/S23
+5b2o3b2o$4bobo2bobo$4bobobobo$bo3b2ob2o$obo$obo$bo!
+
+x = 6, y = 8, rule = B3/S23
+2o2b2o$o4bo$b4o$$3b2o$2bo2bo$3bobo$4bo!
+
+x = 13, y = 10, rule = B3/S23
+4bo$3bobo$3bo2bo3b3o$b2ob2obo$o2bo2bobo$bobo2bo2bo$2bob2ob2o$3bo2bo$4bobo$5bo!
+
+x = 6, y = 6, rule = B3/S23
+b2o$o2bo$obobo$bo2bo$5bo$2bobo!
+
+x = 7, y = 5, rule = B3/S23
+5b2o$b2obobo$obobo$bo2bo$2b2o!
+
+x = 6, y = 6, rule = B3/S23
+bo2bo$b4o$$b4o$o4bo$2o2b2o!
+
+x = 7, y = 7, rule = B3/S23
+2bo$bobo$o2bo$b2ob2o$3bo2bo$3bobo$4bo!
+
+x = 4, y = 6, rule = B3/S23
+2b2o$bobo$o$3o$3bo$2b2o!
+
+x = 7, y = 6, rule = B3/S23
+3bo$2ob2o$4obo$4bobo$3bo2bo$4b2o!
+
+x = 10, y = 6, rule = B3/S23
+5bo$4bobob2o$3bo2bobo$4b2o2bo$2o6b2o$2o!
+
+x = 6, y = 5, rule = B3/S23
+2o$obo$2bo$2bob2o$3bobo!
+
+x = 6, y = 6, rule = B3/S23
+b2o$bo$2b3o$5bo$4obo$o2b2o!
+
+x = 7, y = 6, rule = B3/S23
+b2o$o2bo$b2o$3b3o$3bo2bo$4b2o!
+
+x = 5, y = 7, rule = B3/S23
+4bo$ob3o$2o$3b2o$2obo$o2bo$b2o!
+
+x = 6, y = 6, rule = B3/S23
+4b2o$5bo$3bo$b4o$o4bo$2o2b2o!
+
+x = 7, y = 4, rule = B3/S23
+4b2o$bo2bobo$obobobo$b2ob2o!
+
+x = 6, y = 6, rule = B3/S23
+bo2b2o$obo2bo$bob2o$2bo$obo$2o!
+
+x = 12, y = 6, rule = B3/S23
+10b2o$8bo2bo$8b3o$b2o3b2o$o2bobo2bo$b2o3b2o!
+
+x = 7, y = 7, rule = B3/S23
+4b2o$3bo2bo$3bobo$bob2o$obo$obo$bo!
+
+x = 7, y = 5, rule = B3/S23
+2o$bo2bo$bobobo$2obo2bo$4b2o!
+
+x = 8, y = 5, rule = B3/S23
+5b2o$b2o2bobo$o2bobobo$o2bob2o$b2o!
+
+x = 8, y = 6, rule = B3/S23
+b2o$o2bo$bobo2b2o$2b2obobo$5bo$5b2o!
+
+x = 8, y = 11, rule = B3/S23
+5b2o$4bo2bo$4b3o$$4b3o$3bo2bo$3bobo$b2obo$o2bo$obo$bo!
+
+x = 6, y = 4, rule = B3/S23
+2ob2o$bobobo$bo2bo$2b2o!
+
+x = 5, y = 8, rule = B3/S23
+2ob2o$o3bo$b3o$2bo$2bo$b3o$o3bo$2ob2o!
+
+x = 7, y = 5, rule = B3/S23
+2o$obo$b2o$3b2obo$3bob2o!
+
+x = 4, y = 7, rule = B3/S23
+2o$obo$3bo$b3o$o$b3o$3bo!
+
+x = 8, y = 10, rule = B3/S23
+6b2o$5bobo$5bo$3bobo$b3obobo$o5b2o$2o$$2o$2o!
+
+x = 7, y = 4, rule = B3/S23
+4b2o$2o2bobo$obobobo$b2ob2o!
+
+x = 8, y = 8, rule = B3/S23
+3b2o$3b2o$$b4o$o4bo$obobobo$b2obo2bo$5b2o!
+
+x = 7, y = 8, rule = B3/S23
+2b2o$2b2o$$2b4o$bo4bo$obobobo$obob2o$bo!
+
+x = 7, y = 8, rule = B3/S23
+4bo$2obobo$bobo2bo$bo2b2o$2b2o$3bo$3bobo$4b2o!
+
+x = 6, y = 6, rule = B3/S23
+3b3o$3b3o$3b3o$3o$3o$3o!
+
+x = 7, y = 7, rule = B3/S23
+5bo$4bobo$2o2bobo$obob2o$2bo$obo$2o!
+
+x = 6, y = 9, rule = B3/S23
+b2o$b2o$5bo$b5o$o$b3o$4bo$b3o$bo!
+
+x = 9, y = 9, rule = B3/S23
+4bo$3bobo$3bobo$b2obo$obo$obo3bo$bo3bobo$5bo2bo$6b2o!
+
+x = 6, y = 8, rule = B3/S23
+2bo$bobo$bo2bo$2bobo$b2ob2o$2bo$obo$2o!
+
+x = 7, y = 8, rule = B3/S23
+b2o$o2bo$o2bo$b2o$3b3o$3bo2bo$4bobo$5bo!
+
+x = 5, y = 8, rule = B3/S23
+3b2o$2bobo$bobo$bo$2o$bob2o$bo2bo$2b2o!
+
+x = 5, y = 8, rule = B3/S23
+b2o$o2bo$3o$$2b3o$bo2bo$bobo$2bo!
+
+x = 7, y = 9, rule = B3/S23
+2b2o$bo2bo$2b2o$$2b4o$bo4bo$obo2b2o$obo$bo!
+
+x = 8, y = 8, rule = B3/S23
+b3o$o$o3bo$o2bobo$2bobo2bo$3bo3bo$7bo$4b3o!
+
+x = 7, y = 8, rule = B3/S23
+3b2o$2bo2bo$2bobo$3bo$$b5o$o2bo2bo$2o3b2o!
+
+x = 8, y = 6, rule = B3/S23
+b2o$o2bo$2obo2bo$3bobobo$3bo2bo$4b2o!
+
+x = 7, y = 7, rule = B3/S23
+5bo$4bobo$4bobo$b2ob2o$o2bo$bobo$2bo!
+
+x = 7, y = 5, rule = B3/S23
+3bo$3b3o$b2o3bo$o2bob2o$b2o!
+
+x = 7, y = 6, rule = B3/S23
+5b2o$o2bo2bo$6o$$2b2o$2b2o!
+
+x = 7, y = 7, rule = B3/S23
+5b2o$6bo$5bo$4bo$3bo$obo$2o!
+
+x = 13, y = 13, rule = B3/S23
+7bo$6bobo$6bo2bo$4b2ob2obo$3bo2bo2bobo$4bobo2bo2bo$bo3bob2ob2o$obo3bo2bo$o2bo3bobo$b2obo3bo$3bobo$3bo2bo$4b2o!
+
+x = 6, y = 5, rule = B3/S23
+2ob2o$bobo$bo2bo$2bobo$b2ob2o!
+
+x = 5, y = 7, rule = B3/S23
+bobo$4bo$o3bo$o3bo$4bo$bo2bo$2b3o!
+
+x = 8, y = 8, rule = B3/S23
+6bo$5bobo$4bo2bo$4bobo$2bob2o$bobo$o2bo$b2o!
+
+x = 7, y = 6, rule = B3/S23
+5b2o$4bobo$2b3o$bo3bo$obob2o$bo!
+
+x = 5, y = 5, rule = B3/S23
+2bo$bobo$obobo$bo2bo$2b2o!
+
+x = 7, y = 7, rule = B3/S23
+4b2o$3bo2bo$3bo2bo$4b2o$b3o$o2bo$b2o!
+
+x = 4, y = 7, rule = B3/S23
+2o$o$bo$2bo$3bo$bobo$b2o!
+
+x = 5, y = 7, rule = B3/S23
+3b2o$o3bo$4o$$2b2o$2bobo$3bo!
+
+x = 5, y = 6, rule = B3/S23
+bo2bo$b4o$$b2o$obo$bo!
+
+x = 6, y = 10, rule = B3/S23
+2b2o$3bo$2bo$bo$o$obo$b2o$$4b2o$4b2o!
+
+x = 6, y = 8, rule = B3/S23
+3b2o$2bo2bo$2b3o$$5o$o4bo$3bobo$3b2o!
+
+x = 7, y = 7, rule = B3/S23
+b2o$o2bo$b3o$$3b3o$3bo2bo$5b2o!
+
+x = 7, y = 6, rule = B3/S23
+5b2o$4bobo$2o2bo$obobobo$2bo2b2o$b2o!
+
+x = 6, y = 7, rule = B3/S23
+3b2o$2bobo$2bo$b2o$2bob2o$obob2o$2o!
+
+x = 8, y = 5, rule = B3/S23
+2o$obo3bo$bobobobo$3bobobo$2b2ob2o!
+
+x = 4, y = 7, rule = B3/S23
+2o$obo$2bo$2b2o$3bo$2bo$2b2o!
+
+x = 8, y = 7, rule = B3/S23
+3bo$b3o$o3b2o$obobobo$b2obo2bo$5bobo$6bo!
+
+x = 9, y = 6, rule = B3/S23
+2b2ob2o$3bobo$3bobo$2obobob2o$o2bobo2bo$b2o3b2o!
+
+x = 6, y = 5, rule = B3/S23
+b2o$ob3o$o4bo$bobobo$2ob2o!
+
+x = 5, y = 7, rule = B3/S23
+2ob2o$o3bo$b3o$$b3o$bo2bo$2b2o!
+
+x = 7, y = 5, rule = B3/S23
+5b2o$4bobo$bo2bo$obobo$b2ob2o!
+
+x = 3, y = 7, rule = B3/S23
+bo$obo$$$3o$3o$bo!
+
