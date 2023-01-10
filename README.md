@@ -28,3 +28,21 @@ Notations:
 * Shift Operators
   * *(U)*: When the placed in position with the first shape on the left facing upwards, the other shape is *up* from an unshifted position. Note these go after Cis/Trans notation
   * *(D)*: Same as *(U)* but a *down* position.
+
+<h1>File Syntax</h1>
+The lexicon is formatted either as:
+```
+NAME; X,Y; RLEDATA
+```
+or
+```
+NAME; PERIOD
+X1,Y1; RLE1
+X2,Y2; RLE2
+...
+```
+The count file is formatted as:
+```
+NAME; COUNT
+```
+Finally, the ashDump file is just a compilation of RLE Data directly copy pastable into golly.
