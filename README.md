@@ -31,18 +31,24 @@ Notations:
 
 <h1>File Syntax</h1>
 The lexicon is formatted either as:
+
 ```
 NAME; X,Y; RLEDATA
 ```
+
 or
+
 ```
 NAME; PERIOD
 X1,Y1; RLE1
 X2,Y2; RLE2
 ...
 ```
+
 The count file is formatted as:
+
 ```
 NAME; COUNT
 ```
+
 Finally, the ashDump file is just a compilation of RLE Data directly copy pastable into golly.
