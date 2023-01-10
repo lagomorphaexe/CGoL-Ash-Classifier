@@ -9,6 +9,8 @@ Run each command with the `--help` flag to get more info on usage.
 
 To run a comprehensive generation and search, run `sh main.sh`. The parameters in the bash file are mostly self-explanatory or can be derived from the usage of each C-compiled binary. The first half of this file serves to increase a counter each time the script is run. To set this counter to a desired value, run `sh main.sh NUM`.
 
+Please note that main.sh as is generates an unprocessed pattern file of size around 450 MB. The processed count files each take up around 50.5 MB.
+
 <h1>Lexicon Formatting</h1>
 For ash which is present in golly's lexicon, the name of that ash is used.
 For other ash, it is a combination of such known ashes or given a new name
