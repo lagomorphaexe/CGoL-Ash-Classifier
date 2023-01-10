@@ -1,4 +1,5 @@
 <h1>General information</h1>
+
 This utility allows for the analysis of the distribution of still lifes from random ash. To compile from source, run `make all`. If golly is not installed, run `make install` beforehand.
 
 Run each command with the `--help` flag to get more info on usage.
