@@ -6,7 +6,14 @@
 const char * helpText = R"ESC(Update Lexicon -- a subprogram of Analyze RLE.
 Analyzes the RLE data in an ash dump and prompts the user what to add to the lexicon.
 For each ash, an answer of [y] adds the entry to the lexicon. [n] discards the entry.
-An answer of [*] ...
+An answer of [*] will prompt for TWO LINES of RLE input for the true RLE Data of the
+entry. Note: For large still lifes, copy and pasting RLE from golly will have MORE
+THAN TWO LINES, so open the data in a text editor before putting it into the program.
+
+A good strategy is to run this with an auxiliary lexicon file (say lex2.txt), make
+any necessary edits after the script runs, and append the contents of this file to
+lexicon.txt manually.
+
 The ash dump file will be cleared unless the --no-clear flag is given.
 Use: ./updateLexicon [flags]
 
