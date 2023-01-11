@@ -135,7 +135,7 @@ int main(int argc, char *argv[]){
 
         for(int y = 0; y < maxBoundY; ++y)
         {
-            if((y + segmentStart) % pow(10, ilog(height) - 4) == 0)
+            if((y + segmentStart) % pow(10, ilog(height) - 2) == 0)
             {
                 printProgressBar(y + segmentStart, height, g_linesize - 30);
             }
