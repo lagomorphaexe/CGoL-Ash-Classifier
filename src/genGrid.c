@@ -49,7 +49,7 @@ int main( int argc, char *argv[] )
   {
     int count = 1;
     int prev = -1;
-    if(y % pown(10, ilog(h, 10) - 4) == 0)
+    if(y % pown(10, ilog(h, 10) - 3) == 0)
     {
       printProgressBar(y, h, 100);
     }
