@@ -24,9 +24,10 @@ Notations:
 * *Shifted*: Specifies a shift from the normal unnamed unshifted system.
 * *R-*: Specifies a common shape has an extra cell on its side somewhere, e.g. R-Bee. A nonstandard cell may be called *R'-*, when more than one is present use *2R-*
 * Conjunction Operators
-  * *-J-*: Specifies two shapes are joined, going from front to back. E.g. *Eater -J-* implies the joining occurs on the back tail of the eater. If joining occurs with a cell in between, use *-J.-* notation.
-  * *-S-*: Specifies siamese (overlap) between the two shapes. If in multiple locations, *-SS-* may be used to differentiate.
+  * *-J-*: Specifies two shapes are joined, going from front to back. E.g. *Eater -J-* implies the joining occurs on the back tail of the eater. If joining occurs with a cell in between, use *-J.-* notation. If the second is in reverse order, use *-J:*-.
+  * *-S-*: Specifies siamese (overlap) between the two shapes. If in multiple locations, *-SS-* may be used to differentiate. Use *-S:*- for reversals.
   * *-X-*: Specifies the shapes are overlapped in some way but are missing some cells. In practice a catch-all for weird still life.
+  * *-T-*: Specifies still lifes are joined by a 3x1 Tail. For 2x1 Tails etc. use -T2-.
 * Shift Operators
   * *(U)*: When the placed in position with the first shape on the left facing upwards, the other shape is *up* from an unshifted position. Note these go after Cis/Trans notation
   * *(D)*: Same as *(U)* but a *down* position.
