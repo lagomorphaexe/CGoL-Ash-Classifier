@@ -3,6 +3,7 @@
 #include <time.h>
 
 #include "bits.h"
+#include "_config.h"
 
 char charval(int a)
 {
@@ -49,11 +50,10 @@ int main( int argc, char *argv[] )
   {
     int count = 1;
     int prev = -1;
-    if(y % pown(10, ilog(h, 10) - 3) == 0)
+    if(y % pown(10, ilog(h, 10) - PROGRESSBAR_SPEED) == 0)
     {
-      printProgressBar(y, h, 100);
+      printProgressBar(y, h, CONSOLE_LINESIZE - 30);
     }
-    printProgressBar(y, h, 100);
     for(int x = 0; x < w; ++x)
     {
       int curr = rand()%2;
@@ -88,7 +88,7 @@ int main( int argc, char *argv[] )
     else
       fprintf(f, "$");
   }
-  printProgressBar(h, h, 100);
+  printProgressBar(h, h, CONSOLE_LINESIZE - 30);
   printf("\nFile made.\n");
 
   fclose(f);
