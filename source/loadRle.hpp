@@ -119,12 +119,11 @@ void LoadRLE(TileGrid &tileGrid, std::istream &istr)
   }
 }
 
-void ParseRLEData(const std::string &rleString, int* width = nullptr, int* height = nullptr, int* posx = nullptr, int* posy = nullptr, std::string* rledata = nullptr)
+
+void ParseRLEData(const std::string &rleString, int* width = nullptr, int* height = nullptr, int* posx = nullptr, int* posy = nullptr, int* rleDataBegin = nullptr)
 {
   std::string l, header, info;
-  int tok = 0;
-
-  if(rledata != nullptr) *rledata = "";
+  int tok = 0, tokprv = 0;
 
   while((l = advanceToken(rleString, tok, '\n')) != "")
   {
@@ -137,12 +136,16 @@ void ParseRLEData(const std::string &rleString, int* width = nullptr, int* heigh
         info = l;
         break;
       default:
-        if(rledata != nullptr)
-          *rledata += l;
+        if(rleDataBegin != nullptr) {
+          *rleDataBegin = tokprv;
+        }
+        goto whileloopend;
     }
+    tokprv = tok;
   }
+  whileloopend:;
 
-  if(info == "" || (rledata != nullptr && *rledata == ""))
+  if(info == "")
   {
     if(width  != nullptr) *width  = 0;
     if(height != nullptr) *height = 0;
@@ -189,13 +192,15 @@ void ParseRLEData(const std::string &rleString, int* width = nullptr, int* heigh
   }
 }
 
+
+
 void LoadNextRLESegment(TileGrid &tileGrid, const std::string &rleString, int read_line_begin = 0, int max_lines_read = -1, int lines_kept = 0)
 {
 
   // Get data from RLE
-  int dim_x = 0, dim_y = 0, posx = 0, posy = 0;
-  std::string data;
+  int dim_x = 0, dim_y = 0, posx = 0, posy = 0, data = 0;
   ParseRLEData(rleString, &dim_x, &dim_y, &posx, &posy, &data);
+
 
   if(dim_x == 0 || dim_y == 0) {
     WARNM << "Created tilegrid of size zero from rle string of length " << rleString.length() << "\n";
@@ -234,7 +239,8 @@ void LoadNextRLESegment(TileGrid &tileGrid, const std::string &rleString, int re
   int reps = 1;
 
   // data parsing
-  for(char c : data) {
+  for(int i = data; i < rleString.length(); ++i) {
+    char c = rleString[i];
     if('0' <= c && c <= '9')
     {
       cnum += c;
@@ -264,11 +270,14 @@ void LoadNextRLESegment(TileGrid &tileGrid, const std::string &rleString, int re
           x = 0;
           y += reps;
           if(y >= read_line_begin + max_lines_read)
+          {
             return;
+          }
         break;
 
         case '!':
         case ' ':
+        case '\n':
         break;
 
         default:
@@ -465,8 +474,20 @@ void LoadNewAsh(std::vector<TileGrid> &newAsh, const std::string &fileName)
 }
 
 // See LoadLexicon for an explanation of lexicon file formatting.
-void SaveLexicon(const std::vector<LexiconEntry> &llex, const std::string &fileName, bool sort = false)
+void SaveLexicon(const std::vector<LexiconEntry> &llex, const std::string &fileName, bool checkDuplicates = false)
 {
+
+  /*if(checkDuplicates)
+  {
+    for(int i = 0; i < llex.size(); ++i)
+    {
+      for(int j = i + 1; j < llex.size(); ++j)
+      {
+        if(llex[j] == llex[i])
+      }
+    }
+  }*/
+
   std::ofstream f;
   f.open(fileName);
 
