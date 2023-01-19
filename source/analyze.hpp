@@ -4,6 +4,18 @@
 #include "search.hpp"
 #include "loadRle.hpp"
 
+bool isCollageFilled(const TileGrid &tGrid)
+{
+  for(byte c : tGrid.data)
+  {
+    if((c & (CELL_CHECKED_BIT | CELL_ON_BIT)) == CELL_ON_BIT)
+    {
+      return false;
+    }
+  }
+  return true;
+}
+
 // Flip Cell Checked Bit on every connected subset of tGrid that is in lexicon
 TileGrid Collage(const TileGrid &tGrid, std::vector<LexiconEntry> &llex)
 {
@@ -108,37 +120,15 @@ void AnalyzeCell(TileGrid &tGrid, std::vector<LexiconEntry> &llex, int x, int y,
     }
   }
 
-  expandOutMutablyVec(shape, tGrid, cells, true, 2);
-
-  // Collage shape with existing entries
-  shape = Collage(shape, llex);
-  
-  bool fullyCollaged = true;
-
-  for(int y = 0; y < shape.h; ++y)
-  for(int x = 0; x < shape.w; ++x)
+  // Repeat collage for 2-3 to check all while not losing performance. Really can be increased to any number but then caught ash is more annoying to parse.
+  for(int i = 2; i <= 3; ++i)
   {
-    // Not sure if should include neighbor check here as well. Probably not since Collage should prevent against it.
-    if((shape.get(x,y)&CELL_CHECKED_BIT) == 0 && 
-       (shape.get(x,y)&CELL_ON_BIT) == 1 )
-    {
-      fullyCollaged = false;
-    }
+    expandOutMutablyVec(shape, tGrid, cells, true, i);
+    // Collage shape with existing entries
+    shape = Collage(shape, llex);
+    if(isCollageFilled(shape))
+      return;
   }
-  if(fullyCollaged)
-  {
-    return;
-  }
-
-  // check if shape is a subset of any lex entry
-  /*std::vector<LexiconEntry> shapeLE = {LexiconEntry(shape, 1)};
-  for(LexiconEntry &le : llex)
-  {
-    for(const TileGrid &frame : le.cells)
-    {
-    }
-  }*/
-
 
   // New shape assumed
 
@@ -160,7 +150,7 @@ void AnalyzeCell(TileGrid &tGrid, std::vector<LexiconEntry> &llex, int x, int y,
   }
   if(isNeverSeenBefore)
   {
-    clrln(g_linesize);
+    clrln(CONSOLE_LINESIZE);
     std::cout << "Possible new shape discovered near x:" << tGrid.posx + x << ", y:" << tGrid.posy + y;
     std::cout << shape;
     std::cout << ToRLE(shape) << '\n';
