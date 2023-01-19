@@ -63,6 +63,20 @@ struct TileGrid {
     return out;
   }
 
+  bool isEqualExact(const TileGrid &tG) const {
+    if(w != tG.w || h != tG.h) return false;
+
+    for(int i = 0; i < data.size(); ++i)
+    {
+      if(data[i] != tG.data[i])
+      {
+        return false;
+      }
+    }
+
+    return true;
+  }
+
   bool isEquivNormal(const TileGrid &tG, bool collageCheckBitLogic = false, byte *rotationInfo = nullptr) const {
     // Unrotated case
     if(tG.w == w && tG.h == h)
@@ -234,10 +248,6 @@ struct TileGrid {
     return tg;
   }
 
-  // TODO
-  // should return both a rotation byte and x and y sizes. 
-  byte isSubsetOf(const TileGrid& sub);
-
   bool contains(const TileGrid& sub) const {
     if(sub.w <= w && sub.h <= h)
     {
@@ -339,6 +349,23 @@ struct LexiconEntry {
   // Require RLE parsing and are defined in loadRLE.hpp
   LexiconEntry(std::string str);
   std::string toString();
+
+  int realPeriod() const
+  {
+    if(cells.size() == 0)
+      return 0;
+    
+    TileGrid tG = cells[0];
+    for(int i = 1; i <= 200; ++i)
+    {
+      tG = tG.next();
+      if(tG.isEqualExact(cells[0]))
+      {
+        return i;
+      }
+    }
+    return 0;
+  }
 };
 
 // Compare function based on counts of each entry 
