@@ -1,4 +1,5 @@
 // TODO: Make sure Harbor is still recognized as a periodic life
+// Should be done
 
 #include <iostream>
 #include <vector>
@@ -8,7 +9,7 @@
 #include "loadRle.hpp"
 #include "bits.hpp"
 #include "_config.h"
- 
+
 TileGrid Universe;
 std::vector<LexiconEntry> LifeLexicon;
 
@@ -31,14 +32,14 @@ int main(int argc, char *argv[]){
     /* Argument Parameters */
     std::string rleFile = "COUNT.rle", lexiconFile = "lexicon.txt", countFile, newAshFile;
     bool readonly = false, help = false;
-    
+
     /* Argument Processing */
     for(int i = 1; i < argc; ++i)
     {
         int strtok = 0;
         std::string flag = advanceToken(argv[i], strtok, '='),
                    value = advanceToken(argv[i], strtok, '\0');
-         
+
         if(flag == argv[i] && flag[0] != '-') rleFile = flag;
         optionalCmdlineParam<std::string>(flag, lexiconFile, "--lexicon",  value, "-l", value);
         optionalCmdlineParam<std::string>(flag, countFile,   "--counts",   value, "-c", "counts.txt");
@@ -63,7 +64,7 @@ int main(int argc, char *argv[]){
         std::cout << "Counts loaded.\n";
         SortLexicon(LifeLexicon);
     }
-        
+
     std::vector<TileGrid> newAsh{};
     if(newAshFile != "") {
         LoadNewAsh(newAsh, newAshFile);
@@ -92,14 +93,14 @@ int main(int argc, char *argv[]){
 
     // Units are in lines
     int segmentStart = 0;
-    int segmentSize = segment_maxVectorSize / width;
-    
-    if (segmentSize - segment_linesBuffered <= 0)
+    int segmentSize = SEGMENT_MAX_VECTORSIZE / width;
+
+    if (segmentSize - SEGMENT_LINES_BUFFERED <= 0)
     {
         ERMSG << "SegmentError: Buffer is larger than segment read, exiting.\n"
-              << "Segment Size = " << segmentSize << " = " << segment_maxVectorSize << " / " << width << " is less than buffer size " << segment_linesBuffered << '\n'
+              << "Segment Size = " << segmentSize << " = " << SEGMENT_MAX_VECTORSIZE << " / " << width << " is less than buffer size " << SEGMENT_LINES_BUFFERED << '\n'
               << "To troubleshoot, either decrease the width of the data of the size of the buffer.\n";
-        return 0;
+        return 1;
     }
 
     int firstpass = true;
@@ -113,12 +114,12 @@ int main(int argc, char *argv[]){
         }
         else
         {
-            LoadNextRLESegment(Universe, rleData, segmentStart + segment_linesBuffered, segmentSize - segment_linesBuffered, segment_linesBuffered);
+            LoadNextRLESegment(Universe, rleData, segmentStart + SEGMENT_LINES_BUFFERED, segmentSize - SEGMENT_LINES_BUFFERED, SEGMENT_LINES_BUFFERED);
         }
         Universe.posy += segmentStart;
 
         int maxBoundY;
-        clrln(g_linesize);
+        clrln(CONSOLE_LINESIZE);
         std::cout << "Cut new segment from line " << segmentStart << " to ";
 
         if(segmentStart + segmentSize > height)
@@ -128,16 +129,16 @@ int main(int argc, char *argv[]){
         }
         else
         {
-            maxBoundY = segmentSize - segment_linesBuffered;
+            maxBoundY = segmentSize - SEGMENT_LINES_BUFFERED;
             std::cout << segmentStart + segmentSize << '\n';
         }
-        printProgressBar(segmentStart, height, g_linesize - 30);
+        printProgressBar(segmentStart, height, CONSOLE_LINESIZE - 30);
 
         for(int y = 0; y < maxBoundY; ++y)
         {
-            if((y + segmentStart) % pow(10, ilog(height) - 2) == 0)
+            if((y + segmentStart) % pow(10, ilog(height) - PROGRESSBAR_SPEED) == 0)
             {
-                printProgressBar(y + segmentStart, height, g_linesize - 30);
+                printProgressBar(y + segmentStart, height, CONSOLE_LINESIZE - 30);
             }
             for(int x = 0; x < width; ++x)
             {
@@ -150,11 +151,11 @@ int main(int argc, char *argv[]){
         }
 
         segmentStart += maxBoundY;
-        
+
         firstpass = false;
     }
 
-    printProgressBar(height, height, g_linesize - 30);
+    printProgressBar(height, height, CONSOLE_LINESIZE - 30);
     std::cout << "\n";
 #else
     LoadFileRLE(Universe, rleFile);
@@ -173,15 +174,19 @@ int main(int argc, char *argv[]){
 
     if(readonly) return 0;
     /* Write operations */
+    std::cout << "Saving Lexicon...\r";
     SaveLexicon(LifeLexicon, lexiconFile, true);
+    std::cout << "Lexicon Saved.   \n";
     if(countFile != "")
     {
         SaveCounts(LifeLexicon, countFile, true);
     }
     if(newAshFile != "")
     {
+        std::cout << "Dumping Ash...\r";
         SaveNewAsh(newAsh, newAshFile);
-    } 
+        std::cout << "Ash Dumped.   \n";
+    }
 
     return 0;
 }
