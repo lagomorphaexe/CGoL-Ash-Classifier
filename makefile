@@ -13,7 +13,7 @@ stats: source/stats.cpp
 	g++ -o stats -O5 source/stats.cpp
 
 install:
-	sudo apt-get install golly
+	sudo apt-get install golly mpg123
 
 clean:
 	rm -f analyzeRLE genGrid updateLexicon
