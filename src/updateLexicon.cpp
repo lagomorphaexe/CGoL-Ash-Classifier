@@ -6,14 +6,7 @@
 const char * helpText = R"ESC(Update Lexicon -- a subprogram of Analyze RLE.
 Analyzes the RLE data in an ash dump and prompts the user what to add to the lexicon.
 For each ash, an answer of [y] adds the entry to the lexicon. [n] discards the entry.
-An answer of [*] will prompt for TWO LINES of RLE input for the true RLE Data of the
-entry. Note: For large still lifes, copy and pasting RLE from golly will have MORE
-THAN TWO LINES, so open the data in a text editor before putting it into the program.
-
-A good strategy is to run this with an auxiliary lexicon file (say lex2.txt), make
-any necessary edits after the script runs, and append the contents of this file to
-lexicon.txt manually.
-
+An answer of [*] ...
 The ash dump file will be cleared unless the --no-clear flag is given.
 Use: ./updateLexicon [flags]
 
@@ -34,7 +27,12 @@ void promptEntry(std::vector<LexiconEntry> &llex, const std::string &entry)
   
   switch(ans[0]) {
 
+    case 'n':
+      break;
+    
     case '*':
+      std::cout << "This ash is\n";
+      std::cout << entry;
       std::cout << "Enter the actual rle data for this ash: ";
       getline(std::cin, name);
       data += name;
@@ -42,15 +40,13 @@ void promptEntry(std::vector<LexiconEntry> &llex, const std::string &entry)
       getline(std::cin, name);
       data += name;
       LoadRawRLE(t, data);
-
+    
     case 'y':
+    default:
       std::cout << "Enter a name for this ash: ";
       getline(std::cin, name);
       llex.push_back(LexiconEntry(t));
       llex[llex.size() - 1].name = name;
-      break;
-
-    case 'n':
       break;
   }
 }
@@ -111,5 +107,5 @@ int main(int argc, char* argv[])
     return 0;
   
   std::ofstream ofs(ashDumpFile, std::ofstream::out | std::ofstream::trunc);
-  ofs.close();
+  ofs.close(); 
 }
