@@ -1,13 +1,16 @@
-all: analyzeRLE genGrid updateLexicon
+all: analyzeRLE genGrid updateLexicon stats
 
-analyzeRLE: source/analyzeRLE.cpp
-	g++ -o analyzeRLE -O5 src/analyzeRLE.cpp
+analyzeRLE: source/analyzeRle.cpp
+	g++ -o analyzeRLE -O5 source/analyzeRLE.cpp
 
-genGrid: source/genGrid.c
-	gcc -o genGrid -O5 src/genGrid.c
+genGrid: source/analyzeRle.cpp
+	gcc -o genGrid -O5 source/genGrid.c
 
 updateLexicon: source/updateLexicon.cpp
-	g++ -o updateLexicon -O5 src/updateLexicon.cpp
+	g++ -o updateLexicon -O5 source/updateLexicon.cpp
+
+stats: source/stats.cpp
+	g++ -o stats -O5 source/stats.cpp
 
 install:
 	sudo apt-get install golly
