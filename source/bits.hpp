@@ -125,7 +125,7 @@ std::string humanize(long l)
 
     for(int i = 0; i < 3; ++i)
         digs[i] = l / pow(10, logv - i) % 10;
-
+    
     std::string out;
 
     if(unit <= 5)
@@ -133,33 +133,41 @@ std::string humanize(long l)
         switch(logv % 3)
         {
             case 0:
-                out += digs[0];
-                out += ".";
-                out += digs[1];
+                if(unit == 0)
+                {
+                    out += "  ";
+                    out += std::to_string(digs[0]);
+                }
+                else
+                {
+                    out += std::to_string(digs[0]);
+                    out += ".";
+                    out += std::to_string(digs[1]);
+                }
             break;
             case 1:
                 out += " ";
-                out += digs[0];
-                out += digs[1];
+                out += std::to_string(digs[0]);
+                out += std::to_string(digs[1]);
             break;
             case 2:
-                out += digs[0];
-                out += digs[1];
-                out += digs[2];
+                out += std::to_string(digs[0]);
+                out += std::to_string(digs[1]);
+                out += std::to_string(digs[2]);
             break;
         }
         char suffixes[] = {'k', 'M', 'B', 'T', 'Q'};
         
-        if(unit > 0)
-            out += suffixes[unit - 1];
+        if(unit == 0) out = " " + out;
+        else          out += suffixes[unit - 1];
     }
     else
     {
-        out += digs[0];
+        out += std::to_string(digs[0]);
         out += ".";
-        out += digs[1];
+        out += std::to_string(digs[1]);
         out += "e";
-        out += logv;
+        out += std::to_string(logv);
     }
 
     return out;
@@ -220,5 +228,20 @@ inline void optionalCmdlineParam(std::string flag, T &var, std::string fullName,
         var = possibleValue;
     else if(flag == abbrv)
         var = defaultValue;
+}
+
+void coutAdj(std::string s, int slength)
+{
+    bool lenflag = s.length() > slength;
+    for(int i = 0; i < slength - 3*lenflag; ++i)
+    {
+        if(i < s.length())
+            std::cout << s[i];
+        else
+            std::cout << " ";
+    }
+
+    if(lenflag)
+        std::cout << "...";
 }
 #endif
